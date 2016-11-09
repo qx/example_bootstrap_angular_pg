@@ -1,23 +1,23 @@
 source 'https://rubygems.org'
 
-ruby '2.2.2'
+ruby '2.3.1'
 
-gem 'rails', '> 4'
-gem 'pg'
-gem 'sass-rails'
-gem 'uglifier'
-gem 'coffee-rails'
-gem 'jquery-rails'
-gem 'jbuilder'
-gem 'rails_12factor', group: :production
-gem 'puma'
-gem 'devise'
-gem 'bower-rails'
-gem 'faker'
+gem 'rails', ' ~> 4.2.7'
+gem 'pg', '~>0.18.4'
+gem 'sass-rails', '~>5.0.4'
+gem 'uglifier', '~>2.7.2'
+gem 'coffee-rails', '~>4.1.0'
+gem 'jquery-rails', '~>4.0.5'
+gem 'jbuilder', '~>2.3.2'
+gem 'rails_12factor', '~>0.0.3', group: :production
+gem 'puma', '~>2.15.3'
+gem 'devise', '~>3.5.2'
+gem 'bower-rails', '~>0.10.0'
+gem 'faker', '~>1.6.1'
 
 group :development, :test do
-  gem 'rspec-rails'
-  gem 'poltergeist'
-  gem 'database_cleaner'
-  gem 'factory_girl_rails'
+  gem 'rspec-rails', '~>3.5'
+  gem 'poltergeist', '~>1.8.1'
+  gem 'database_cleaner', '~>1.5.1'
+  gem 'factory_girl_rails', '~>4.5.0'
 end
