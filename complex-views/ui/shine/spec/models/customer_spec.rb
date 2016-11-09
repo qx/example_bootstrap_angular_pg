@@ -1,3 +1,13 @@
+# == Schema Information
+#
+# Table name: customers
+#
+#  first_name :string           not null
+#  last_name  :string           not null
+#  email      :string           not null
+#  username   :string           not null
+#
+
 #---
 # Excerpted from "Rails, Angular, Postgres, and Bootstrap",
 # published by The Pragmatic Bookshelf.
